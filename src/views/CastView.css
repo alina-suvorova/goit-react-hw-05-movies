@@ -1,0 +1,18 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * 20px);
+  margin-top: calc(-1 * 20px);
+  list-style: none;
+}
+.castList > .castListItem {
+  flex-basis: calc(100% / 3-170px);
+  margin-left: 20px;
+  margin-top: 35px;
+}
+.actorCharacter {
+  font-size: 12px;
+}
+.castListItem {
+  width: 100px;
+}

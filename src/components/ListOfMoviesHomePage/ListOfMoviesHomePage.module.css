@@ -1,0 +1,23 @@
+.ImageGalleryItem {
+  border-radius: 2px;
+  width: 250px;
+  height: 460px;
+  padding-bottom: 15px;
+  list-style: none;
+}
+.ImageGallery {
+  display: grid;
+  max-width: calc(100vw - 48px);
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.LinkOfListHomepage {
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+}

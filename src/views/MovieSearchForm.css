@@ -1,0 +1,21 @@
+.searchFormInput {
+  padding: 5px;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: 5px solid #c7c7c7;
+  background-color: #c7c7c7;
+  outline: none;
+  width: 50%;
+}
+.btn {
+  display: inline-block;
+  width: 70px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid #c7c7c7;
+  background-color: #c7c7c7;
+  border-radius: 5px;
+}

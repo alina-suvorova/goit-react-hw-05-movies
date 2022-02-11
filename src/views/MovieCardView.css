@@ -1,0 +1,47 @@
+.wrapperCardInfo {
+  min-height: 70vh;
+}
+.imgCard {
+  height: 400px;
+  float: left;
+  margin-right: 20px;
+}
+.genresDiv {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.genresList {
+  list-style: none;
+  display: flex;
+  margin-left: -30px;
+}
+.genresListItem + .genresListItem {
+  margin-left: 10px;
+}
+.addInformDiv {
+  margin-left: 80px;
+}
+.castReviewList {
+  margin-left: 50px;
+  list-style: none;
+}
+.linkBack {
+  width: 100px;
+  height: 35px;
+  display: block;
+  border: none;
+  background: #c7c7c7;
+  color: #111111;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+
